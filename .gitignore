@@ -1,0 +1,20 @@
+# Environnements
+.venv/
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Logs
+outputs/rag_logs/
+
+# RAG stores 
+data/chroma_db/
+data/rag_index/
+data/rag_chunks/

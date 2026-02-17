@@ -1,0 +1,8 @@
+{
+  "created_at": "2026-02-08T07:44:15.394406+00:00",
+  "embed_model": "nomic-embed-text",
+  "ollama_base_url": "http://localhost:11434",
+  "num_chunks": 114,
+  "dim": 768,
+  "docs_dir": "C:\\Users\\Administrator\\OneDrive\\Bureau\\@ProgrammeAI_cours_session_04\\Intelligence Artificielle Générative\\projet_UA1\\data\\rag_docs"
+}

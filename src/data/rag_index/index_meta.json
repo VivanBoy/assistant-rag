@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-02-08T09:41:42.098870+00:00",
+  "embed_model": "nomic-embed-text",
+  "dim": 768,
+  "n_chunks": 44,
+  "sources": [
+    "Convention collective - services alimentaires.pdf",
+    "Hébergement - Critères du service d'entretien ménager dans un hôtel 4 diamants.pdf",
+    "Membres du comité SST.pdf",
+    "Principes de vie internes.pdf",
+    "Processus - Gestion des réservations.pdf",
+    "politiques_hotel_de_la_promenade_document.pdf"
+  ]
+}
