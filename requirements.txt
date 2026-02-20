@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+wordcloud
+vaderSentiment
+spacy
+langchain-community
+langchain
+langchain-ollama
+langchain-chroma
