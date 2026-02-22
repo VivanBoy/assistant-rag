@@ -16,6 +16,6 @@ __pycache__/
 outputs/rag_logs/
 
 # RAG stores 
-data/chroma_db/
-data/rag_index/
-data/rag_chunks/
+src/data/chroma_db/
+src/data/rag_index/
+src/data/rag_chunks/
