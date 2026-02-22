@@ -13,3 +13,5 @@ langdetect
 pdfplumber
 pyarrow
 fastparquet
+textblob
+textblob-fr
