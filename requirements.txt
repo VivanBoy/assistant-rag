@@ -9,3 +9,7 @@ langchain-community
 langchain
 langchain-ollama
 langchain-chroma
+langdetect
+pdfplumber
+pyarrow
+fastparquet

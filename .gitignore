@@ -19,3 +19,9 @@ outputs/rag_logs/
 src/data/chroma_db/
 src/data/rag_index/
 src/data/rag_chunks/
+
+# Project packages temp files
+src/utils/__pycache__/
+src/utils/*.pyc
+assistant_rag.egg-info/
+src/assistant_rag.egg-info/
