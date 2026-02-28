@@ -5,6 +5,8 @@ scikit-learn
 wordcloud
 vaderSentiment
 spacy
+seaborn
+ipykernel
 langchain-community
 langchain
 langchain-ollama
