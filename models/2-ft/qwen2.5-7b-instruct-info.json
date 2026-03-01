@@ -1,0 +1,6 @@
+{
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "quantization": "4-bit (NF4)",
+  "device_map": "auto",
+  "date_loaded": "2026-03-01 00:21:22"
+}
