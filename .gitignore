@@ -25,3 +25,8 @@ src/utils/__pycache__/
 src/utils/*.pyc
 assistant_rag.egg-info/
 src/assistant_rag.egg-info/
+
+models/1-rag/*.gguf
+*.safetensors
+
+
