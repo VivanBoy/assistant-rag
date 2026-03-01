@@ -8,6 +8,14 @@ spacy
 seaborn
 ipykernel
 torch
+sentence-transformers
+faiss-cpu
+tqdm
+transformers[onnx]
+onnx
+onnxruntime
+ollama
+# faiss-gpu
 langchain-community
 langchain
 langchain-ollama
