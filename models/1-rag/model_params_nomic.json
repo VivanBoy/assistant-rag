@@ -1,0 +1,6 @@
+{
+  "embedding_model": "nomic-embed-text (via Ollama)",
+  "dimension": 768,
+  "total_chunks": 148,
+  "date": "2026-02-28 19:41:07"
+}

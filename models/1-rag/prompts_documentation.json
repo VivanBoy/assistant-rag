@@ -1,0 +1,23 @@
+{
+  "zero_shot": {
+    "description": "Prompt simple demandant de répondre uniquement à partir du contexte fourni.",
+    "template": "En utilisant uniquement les extraits de documents fournis ci-dessous, réponds à la question de l'employé.\n\nExtraits de la documentation :\n{contexte}\n\nQuestion de l'employé : {question}\n\nRéponse (base-toi strictement sur les extraits fournis) :",
+    "justification": "Idéal pour des questions factuelles simples où le contexte contient directement la réponse. Testé avec la question 'Quelle est la politique de congés?' - les extraits pertinents ont bien été récupérés (Article 21 sur les congés de deuil).",
+    "exemple_contexte": "congés de deuil, 5 jours rémunérés pour certains membres de la famille",
+    "limite": "Peut générer des réponses trop vagues si le contexte est partiel."
+  },
+  "few_shot": {
+    "description": "Prompt avec deux exemples de questions/réponses avant la question cible.",
+    "template": "Exemple 1 : ... Exemple 2 : ... \n\nQuestion : {question}\nContexte : {contexte}\nRéponse :",
+    "justification": "Utile pour guider le format de réponse attendu et pour des questions complexes nécessitant un format spécifique. Les exemples choisis (entretien ménager 4 diamants et comité SST) couvrent différents types de documentation.",
+    "exemples_utilises": "entretien ménager (critères service), comité SST (composition et rôle)",
+    "limite": "Peut biaiser le modèle vers le format des exemples plutôt que le contenu recherché."
+  },
+  "cot": {
+    "description": "Prompt guidant le modèle à raisonner étape par étape.",
+    "template": "En utilisant uniquement les extraits de documents fournis ci-dessous, réponds à la question de l'employé en expliquant étape par étape ton raisonnement.\n\nExtraits de la documentation :\n{contexte}\n\nQuestion de l'employé : {question}\n\nÉtape 1 : Identifie les extraits pertinents pour la question.\nÉtape 2 : Extrais les informations spécifiques qui répondent à la question.\nÉtape 3 : Formule une réponse complète basée sur ces informations.\n\nRéponse étape par étape :",
+    "justification": "Recommandé pour les questions nécessitant une synthèse ou impliquant plusieurs extraits. Réduit les hallucinations en forçant le modèle à expliciter son raisonnement. Particulièrement utile quand l'information est dispersée dans plusieurs sections.",
+    "cas_utilisation": "questions complexes, informations dispersées, besoin de traçabilité du raisonnement",
+    "limite": "Réponses plus longues, peut être excessif pour des questions simples."
+  }
+}

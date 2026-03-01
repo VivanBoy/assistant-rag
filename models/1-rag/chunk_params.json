@@ -1,0 +1,7 @@
+{
+  "chunk_size": 512,
+  "overlap": 50,
+  "total_chunks": 148,
+  "model_embedding": "all-MiniLM-L6-v2",
+  "date": "2026-02-28 19:12:33"
+}

@@ -1,0 +1,6 @@
+{
+  "embedding_model": "all-MiniLM-L6-v2",
+  "dimension": 384,
+  "total_chunks": 148,
+  "date": "2026-02-28 19:12:38"
+}
