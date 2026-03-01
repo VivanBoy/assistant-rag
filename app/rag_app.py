@@ -67,7 +67,7 @@ class AssistantRAG:
             n_gpu_layers=0,
             verbose=False
         )
-        print("✓ Modèle de génération chargé")
+        print("Modèle de génération chargé")
     
     def rechercher_contexte(self, question, k=3):
         """Recherche les chunks pertinents pour une question."""
