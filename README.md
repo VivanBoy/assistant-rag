@@ -1,6 +1,6 @@
 # Assistant Intelligent pour l'Hôtel de la Promenade
 
-Un assistant intelligent conçu pour les employés de l'**Hôtel de la Promenade** à [Ottawa](https://www.delapromenade.ca/). Ce projet vise à exploiter les données internes de l'hôtel pour améliorer l'expérience client et faciliter le travail du personnel à travers deux types d'assistants :
+Un assistant intelligent conçu pour les employés de [l'**Hôtel de la Promenade**](https://www.delapromenade.ca/) à Ottawa. Ce projet vise à exploiter les données internes de l'hôtel pour améliorer l'expérience client et faciliter le travail du personnel à travers deux types d'assistants :
 
 - Un **assistant RAG (Retrieval-Augmented Generation)** capable de répondre aux questions factuelles en se basant strictement sur la documentation interne de l'hôtel.
 - Un **assistant fine-tuné** entraîné à reproduire le style et le ton spécifiques de l'hôtel à partir de sa FAQ officielle.
